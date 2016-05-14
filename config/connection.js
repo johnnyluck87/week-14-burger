@@ -10,6 +10,17 @@ var connection = mysql.createConnection({
     database: 'hamburger_db'
 });
 
+if (process.env.JAWSDB_URL) {
+    connection = mysql.createCnnection(process.env.JAWSDB_URL);
+}else {
+    connection = mysql.createConnection({
+        host: 'tviw6wn55xwxejwj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+        user: 'bm8jl051hyuwm7vz',
+        password: 'smtkaightw1r6d2p',
+        database: 'ngijeyizb5etgo4m',
+    });
+};
+
 connection.connect(function(err) {
     if (err) {
         console.error('error connecting: ' + err.stack);
