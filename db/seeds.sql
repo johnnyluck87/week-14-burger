@@ -1,6 +1,6 @@
-INSERT INTO cats (name) VALUES ('Meeses');
-INSERT INTO cats (name) VALUES ('Bobbi');
-INSERT INTO cats (name, sleepy) VALUES ('Sylvester', true);
-INSERT INTO cats (name, sleepy) VALUES ('Marilyn Manson', true);
-INSERT INTO cats (name, sleepy) VALUES ('Joe Biden', true);
-INSERT INTO cats (name) VALUES ('Owens');
+INSERT INTO hamburgers (name) VALUES ('cheeseburger');
+INSERT INTO hamburgers (name) VALUES ('bacon burger');
+INSERT INTO hamburgers (name, devour it) VALUES ('cowboy burger', true);
+INSERT INTO hamburgers (name, devour it) VALUES ('mexican burger', true);
+INSERT INTO hamburgers (name, devour it) VALUES ('turey burger', true);
+INSERT INTO hamburgers (name) VALUES ('chicken burger');
